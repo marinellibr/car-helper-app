@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href='./car-helper-app' angular-cli-ghpages --dir=dist/car-helper-app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
