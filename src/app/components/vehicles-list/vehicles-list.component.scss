@@ -12,6 +12,9 @@
     border-bottom: 2px solid cadetblue;
     width: 85%;
     .info {
+      p {
+        font-family: "Roboto", sans-serif;
+      }
     }
     .pinned {
       transform: rotateZ(45deg);

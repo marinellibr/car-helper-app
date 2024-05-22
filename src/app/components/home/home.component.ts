@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CarInfoComponent } from '../shared/car-info/car-info.component';
 import { MetricCardComponent } from '../shared/metric-card/metric-card.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarInfoComponent, MetricCardComponent],
+  imports: [CarInfoComponent, MetricCardComponent, CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
